@@ -27,17 +27,16 @@ html, body {
  }
 
  .logo{
-   position: absolute;
-   top: 40px;
-   left: 50px;
+   margin-right: 10px;
    transition: .5s ease;
  }
  .logo img{
    width: 60px;
  }
  .logo:hover{
-   transform: scale(1.2);
+  transform: scale(1.2);
  }
+ 
 
  /* ------------------------------------------------------ */
 
