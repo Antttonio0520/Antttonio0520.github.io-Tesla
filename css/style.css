@@ -126,7 +126,7 @@ body{
    position: absolute;
    top: 0;
    /* right: -30%; */
-   width:18%;
+   width:14%;
    border-radius: 7px;
    margin-top: 45px;
    transition: all .5s;
@@ -189,6 +189,21 @@ body{
    border-color: #fff;
    transform: scale(1.1);
    margin-left: 35px;
+}
+@media(max-width:2050px){
+   .menu{
+      width: 14%;
+   }
+}
+@media(max-width:1620px){
+   .menu{
+      width: 17%;
+   }
+}
+@media(max-width:1450px){
+   .menu{
+      width: 20%;
+   }
 }
 @media (max-width:1025px){
    .menu{
@@ -292,34 +307,63 @@ body{
 .close-btn-contacts:hover{
    transform: scale(1.3);
 }
+@media(max-width:2050px){
+   .contacts{
+      width: 22%;
+      height: 12%;
+   }
+   .contacts.active{
+      left: 400px;
+   }
+   .contacts img{
+      margin-top: -18px;
+   }
+   .contacts-text{
+   }
+}
+@media(max-width:1620px){
+   .contacts{
+      width: 28%;
+      height: 17%;
+   }
+   .contacts.active{
+      left: 200px;
+   }
+}
+@media (max-width:1450px){
+   .contacts{
+      width: 30%;
+      height: 13%;
+   }
+   .contacts.active{
+      left: 80px;
+   }
+}
 @media(max-width:1025px){
    .contacts{
       width: 44%;
-      height: 22%;
+      height: 12%;
    }
    .contacts.active{
       left: 10px;
+      top: 800px;
    }
 }
 @media(max-width:769px){
    .contacts.active{
-      left: 280px;
+      left: 200px;
    }
    .contacts{
       width: 50%;
-      height: 18%;
+      height: 11%;
    }
    .contacts-img{
-      margin: 0;
+      margin-top: ;
    }
    .contacts-text{
       font-size: 20px;
       line-height: 20px;
    }
-   .contacts-items{
-      margin-top: 15px;
-   }
-
 }
 @media(max-width:426px){
    .contacts {
@@ -443,8 +487,28 @@ input::-webkit-inner-spin-button {
 .testdrive-btn__send:hover, .testdrive-btn__clear:hover{
    transform: scale(1.1);
 }
-
+@media(max-width:2050px){
+   .testdrive{
+      width: 25%;
+   }
+   .testdrive.active{
+      right: 600px ;
+   }
+}
+@media(max-width:1620px){
+   .testdrive.active{
+      right: 500px;
+   }
+}
+@media(max-width:1450px){
+   .testdrive.active{
+      right: 520px;
+   }
+}
 @media(max-width:1025px){
+   .testdrive{
+      width: 30%;
+   }
    .testdrive.active{
       right: 300px;
    }

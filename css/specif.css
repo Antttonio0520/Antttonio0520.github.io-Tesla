@@ -37,7 +37,7 @@ body {
 /* ---------------------------------------------------- */
 
 .logo{
-   top: 100px;
+   top: 110px;
    position: absolute;
    display: flex;
    justify-content: space-between;
@@ -72,7 +72,7 @@ body {
 .one{
    display: flex;
    margin-top: 250px;
-   width: 450px;   
+   max-width: 450px;   
 }
 .two{
    display: flex;
