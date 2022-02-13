@@ -59,7 +59,7 @@ html, body {
    height: 260px;
    transform: rotatey(-180deg) translatex(0px) translatey(0px);
  }
- .element-card .front-facing {
+ .element-card .front-facing, .card-attention .front-facing {
    transform: rotateY(0deg) translateZ(2px);
    position: absolute;
    top: 0;
@@ -91,7 +91,7 @@ html, body {
    text-align: center;
    color: #3498db;
  }
- .element-card .back-facing {
+ .element-card .back-facing, .card-attention .back-facing {
    transform: rotateY(180deg) translateZ(0px);
    display: flex;
    flex-direction: column;
@@ -134,20 +134,9 @@ html, body {
   transform: scale(1.2);
 }
 .card-attention.open {
-  width: 800px;
+  width: 700px;
   height: 180px;
-  transform: rotatey(-160deg) translatex(0px) translatey(0px);
-}
-.card-attention .front-facing {
-  transform: rotateY(0deg) translateZ(0px);
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: #ecf0f1;
-  border: 2px white solid;
-  border-radius: 5px;
+  transform: rotatey(-180deg) translatex(0px) translatey(0px);
 }
 .card-attention .front-facing .abr {
   width: 100%;
@@ -159,30 +148,12 @@ html, body {
   text-align: center;
   color: #db3434;
 }
-.card-attention .back-facing {
-  transform: rotateY(180deg) translateZ(0px);
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: #ecf0f1;
-  border: 2px white solid;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  overflow: hidden;
-}
+
 .card-attention .back-facing p {
   font-size: 20px;
   line-height: 25px;
   margin: 0;
-}
+}*
 
 @media(max-width:426px){
   .container{

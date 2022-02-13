@@ -96,7 +96,6 @@ $(document).ready(function () {
          $('.element-card').removeClass('open');
          $(this).addClass('open');
       }
-
    });
 
    $('.card-attention').on('click', function () {
@@ -107,7 +106,6 @@ $(document).ready(function () {
          $('.card-attention').removeClass('open');
          $(this).addClass('open');
       }
-
    });
 
 });
